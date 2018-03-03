@@ -1,23 +1,29 @@
 {
-  "name": "pink",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Личный проект «Пинк» от HTML Academy",
-  "devDependencies": {
-    "@htmlacademy/editorconfig-cli": "1.x",
-    "stylelint": "8.1.x",
-    "stylelint-config-htmlacademy": "0.1.x"
-  },
+  "name": "optimizedhtml",
+  "version": "2.0.1",
+  "description": "OptimizedHTML - Start HTML Template",
+  "main": "index.js",
   "scripts": {
-    "editorconfig": "editorconfig-cli",
-    "stylelint": "stylelint .",
-    "test": "npm run editorconfig"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "editorconfig-cli": [
-    "*.html",
-    "*.json"
-  ],
-  "engines": {
-    "node": "8.2"
+  "author": "WebDesign Master",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.5.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rsync": "0.0.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.0"
   }
 }

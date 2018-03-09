@@ -1,0 +1,28 @@
+.header__menu{
+    display: flex;
+    padding: 20px 130px;
+    color: #fff;
+    align-items: center;
+    height: 110px;
+    background-color: rgba(0,0,0, 0.08);
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 5px;
+    @media screen and (max-width:1132px) {
+        
+  }
+}
+
+.menu .menu__item{
+    display: inline-block;
+}
+.menu__item{
+    padding-left: 83px;
+    @media screen and (max-width:1132px) {
+        display: none;    
+  }
+}
+.menu__link{
+    color: #fff;
+    text-decoration: none;
+}
